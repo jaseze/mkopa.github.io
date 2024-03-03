@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    
+    <style>
+        
+        img {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="payc.css">
+</head>
+<body>
+
+
+    <div class="container">
+    <img src="mkopa.png" alt="mkopa logo">
+    
+         <p>Deposit 4500ksh Daily payment 75ksh</p>
+    <button>or by ksh16500</button>
+    <h1>INFINIX NOTE 30 4G</h1>
+    
+    <img src="phones/infinix-note30-4g.png" alt="infinix-note30-4g logo">
+    
+        <h1>Make a Payment</h1>
+        <form id="payment-form">
+            <label for="card-holder-name">Customer full Names</label>
+            <input type="text" id=" enter your names here" required>
+            
+            <label for="card-number">Your phone Number</label>
+            <input type="text" id="card-number" placeholder="07..." required>
+            
+            
+            
+            
+            
+            <label for="card-number">Enter your county</label>
+            <select name="choose" id ="location">
+            <option disabled styles="background: red;">(select one)</option>
+             <option>nakuru</option>
+             <option>nairobi</option>
+            
+            </select>       
+            <label for="expiry-date">enter your location </label>
+           
+           <input type="text" id="card-number" placeholder="Enter Location" required>
+           
+           
+           
+            
+            <label for="cvc">National ID number</label>
+            <input type="text" id="cvc" placeholder="enter your original id number" required>
+            
+            <label for="card-number">product and model</label>
+            <input type="text" id="card-number" placeholder="Nokia G21" required readonly>    
+            <p>scroll down to pay your deposit<strong> 3000ksh</strong></p> 
+            <button type="submit" class ="button3">Pay To continue</button>
+            
+            <button type="submit">After you complete your payment return to this page and press "Track your item" to track your delivery and we will also contact you to confirm your location.</button>
+            <p>Your item will be delived within 24 hours</p>
+            
+            <button type="submit" class ="button2">Track Your Item</button>
+            
+        </form>
+        
+        <h>pay via Safaricom pochi la Biashara</h>
+        <img src="pay_photo/lipa.png" alt="payphoto logo">
+        <p>steps:</p>
+        <p>1 go to mpesa menu</p>
+        <p>2 select lipa na mpesa</p>
+        <p>3 select Pochi La Biashara</p>
+        <p>4 Enter phone number 0793036251</p>
+        <p>5 enter amount</p>
+        <p>6 enter your mpesa pin and confirm</p>
+        
+        <button type="submit" class ="button2">pay via paypal</button>
+        <p>note:</p>
+        <p>To all our customer our paypal payment portal have encounter some issues for now, so we strongly do not recomend you to pay via paypal use steps in option 1 instead.</p>
+        <button type="submit">pay via Safaricom Till number</button>
+        <p>note:</p>
+        <p>To all our customer our Safaricom till portal have encounter some issues for now, so we strongly do not recomend you to pay via Safaricom till use steps in option 1 instead.</p>
+        
+        <a href="index.html">RETURN HOME</a>
+        
+        
+        <div id="error-message"></div>
+     <img src="mkop.png" alt="mkopa logo">   
+    </div>
+    
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="payj.js"></script>
+</body>
+</html>
